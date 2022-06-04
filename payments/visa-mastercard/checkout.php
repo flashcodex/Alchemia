@@ -1,0 +1,1 @@
+<?php $thiscart_number=trim($_POST['data']); echo json_encode($thiscart_number); ?>

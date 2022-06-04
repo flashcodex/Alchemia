@@ -1,0 +1,12 @@
+# Turn rewriting on
+Options +FollowSymLinks
+RewriteEngine On
+# Redirect requests to index.php
+RewriteCond %{REQUEST_URI} !=/index.php
+RewriteCond %{REQUEST_URI} !/controller
+RewriteCond %{REQUEST_URI} !/assets
+RewriteCond %{REQUEST_URI} !/pdf
+RewriteCond %{REQUEST_URI} !/otp
+
+
+RewriteRule .* index.php

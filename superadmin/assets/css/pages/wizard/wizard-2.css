@@ -1,0 +1,242 @@
+.wizard.wizard-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wizard.wizard-2 .wizard-nav {
+  padding: 0;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 400px;
+  flex: 0 0 400px;
+  width: 400px;
+  max-width: 100%;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step {
+  padding: 0.75rem 1.5rem;
+  position: relative;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-icon {
+  font-size: 2.5rem;
+  margin-right: 1.1rem;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-icon i {
+  color: #B5B5C3;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-icon .svg-icon svg g [fill] {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #B5B5C3;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-icon .svg-icon svg:hover g [fill] {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-title {
+  color: #181C32;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-desc {
+  color: #7E8299;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-arrow {
+  color: #7E8299;
+  font-size: 1.25rem;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step .wizard-arrow.last {
+  display: none;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] {
+  background-color: #F3F6F9;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon {
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon i {
+  color: #3699FF !important;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon .svg-icon svg g [fill] {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #3699FF !important;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon .svg-icon svg:hover g [fill] {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+}
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current]:after {
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: " ";
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  position: absolute;
+  border-left-color: #F3F6F9;
+  border-width: 1rem;
+}
+.wizard.wizard-2 .wizard-body {
+  width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .wizard.wizard-2 .wizard-nav {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 325px;
+    flex: 0 0 325px;
+    width: 325px;
+  }
+}
+@media (max-width: 991.98px) {
+  .wizard.wizard-2 {
+    display: block;
+  }
+  .wizard.wizard-2 .wizard-nav {
+    width: 100%;
+    border-bottom: 1px solid #EBEDF3;
+  }
+  .wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current]:after {
+    content: none;
+  }
+  .wizard.wizard-2 .wizard-body {
+    width: 100%;
+  }
+}
+
+/*.draggable-source--is-dragging {
+  opacity: 0.3;
+}
+.draggable-container--over {
+  animation: draggablePulseBg cubic-bezier(0.22, 0.61, 0.36, 1) 1500ms infinite;
+}
+.draggable-mirror {
+  position: absolute;
+  padding: 1rem;
+  background-color: #fff;
+  -webkit-transition: all 0ms;
+  -moz-transition: all 0ms;
+  -o-transition: all 0ms;
+  transition: all 0ms;
+  overflow: auto;
+  box-shadow: 0 0.4rem 3rem rgba(0,0,0,0.35), 0 0.1rem 0.5rem rgba(0,0,0,0.2);
+  border-radius: 0.2rem;
+  z-index: 10;
+  cursor: move;
+  -webkit-transition: top 0ms left 0ms;
+  -moz-transition: top 0ms left 0ms;
+  -o-transition: top 0ms left 0ms;
+  transition: top 0ms left 0ms;
+}
+.draggable-source--placed {
+  animation: placedItem cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s;
+}
+.sortableCards-enter-active,
+.sortableCards-leave-to {
+  opacity: 0;
+}
+.sortableCards-leave-active {
+  position: absolute;
+}
+@-moz-keyframes draggablePulseBg {
+  0% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+  35% {
+    background-color: rgba(0,0,0,0.05);
+    outline: solid 0.1rem rgba(0,0,0,0.1);
+  }
+  100% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+}
+@-webkit-keyframes draggablePulseBg {
+  0% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+  35% {
+    background-color: rgba(0,0,0,0.05);
+    outline: solid 0.1rem rgba(0,0,0,0.1);
+  }
+  100% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+}
+@-o-keyframes draggablePulseBg {
+  0% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+  35% {
+    background-color: rgba(0,0,0,0.05);
+    outline: solid 0.1rem rgba(0,0,0,0.1);
+  }
+  100% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+}
+@keyframes draggablePulseBg {
+  0% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+  35% {
+    background-color: rgba(0,0,0,0.05);
+    outline: solid 0.1rem rgba(0,0,0,0.1);
+  }
+  100% {
+    background-color: transparent;
+    outline: solid 0.1rem transparent;
+  }
+}*/

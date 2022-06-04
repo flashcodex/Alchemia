@@ -1,0 +1,19 @@
+-----1ST SECTION-----
+IMAGE: 1st.svg
+HEADING: Fun and 100% free
+PARAGRAPH: Access our extensive and engaging science education 
+curriculum for free, on any device - inside the classroom, at home or on the go.
+
+-----2ND SECTION-----
+IMAGE: 2nd.svg
+HEADING: Compliments your curriculum
+PARAGRAPH: Tailor Alchemia to your learning objectives with customizable
+assignments and lessons, keeping the students learning both in and out of the
+classroom.
+
+-----3RD SECTION-----
+IMAGE: 3rd.svg
+HEADING: Personalized and self-paced
+PARAGRAPH: Increase their learning independence with assignments, quizzes,
+assessments together with some games and more powered by our personalized
+learning website.
